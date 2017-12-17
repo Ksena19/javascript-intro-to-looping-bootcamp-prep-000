@@ -10,7 +10,7 @@ function doWhileLoop(array) {
     return Math.random() >= 0.5
   }
 do {
-  delete array[i]    
-} while (maybeTrue()) 
+  delete array[i]
+} while (maybeTrue())
  }
 }
