@@ -11,6 +11,6 @@ function doWhileLoop(array) {
   }
 do {
   delete array[i]
-} while (maybeTrue())
+} while {  (maybeTrue())
  }
 }
