@@ -7,9 +7,19 @@ function whileLoop(n) {
 }
 
 
-function doWhileLoop(array) {
-do {
-  delete array[i]
-} while {  (maybeTrue())
- }
+whileLoop(10);*/
+
+function maybeTrue() {
+  return Math.random() >= 0.5;
 }
+
+var array = [1,2,3];
+
+function doWhileLoop(array) {
+  do {
+    array.pop();
+  } while (array.length > 0); //&& maybeTrue());
+  return array;
+}
+
+doWhileLoop(array);
